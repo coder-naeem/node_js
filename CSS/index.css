@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--color2);
+}
+/* Style of Navigation Bar */
+.nav_bar {
+    padding: 8px 40px 8px 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 3px 0 black;
+}
+.nav_bar .nav_start a {
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: var(--font2);
+    color: var(--color3);
+}
+.nav_bar .nav_start .logo_span {
+    color: red;
+}
+/* Navigation Center */
+.nav_bar .nav_center ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav_bar .nav_center ul li {
+    margin: 5px;
+    display: inline-block;
+}
+.nav_bar .nav_center ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+.nav_bar .nav_center ul li a:hover, a.active {
+    color: var(--color3);
+    background-color: #f1f1f1;
+    border-bottom: 3px solid red;
+}
+/* Nav End */
+.nav_bar .nav_end input {
+    background-color: #f1f1f1;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 28px;
+}
+.nav_bar .nav_end input[type=text] {
+    font-size: 16px;
+    padding: 8px 20px;
+    
+}
+
+
+
+/* Main Section */
